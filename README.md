@@ -24,20 +24,22 @@ Things you may want to cover:
 * ...
 
 ## Running rails server
-```rails server```
+`rails server`
 
 ## Troubleshooting
 ### Installing Rails
 Run the command 
-```rails -v``` 
+`rails -v` 
 to check if rails is installed or not. 
 If not run the command 
-```gem environment``` 
+`gem environment` 
 Export the PATH variable in your .bash_profile as per the mentioned path of the EXECUTABLE DIRECTORY. Then try to run rails again.
 
 ### Running Rails server
-```brew install yarn```
-```rails webpacker:install```
-```yarn install --check-files```
-```rails s```
+```
+brew install yarn
+rails webpacker:install
+yarn install --check-files
+rails s
+```
 
