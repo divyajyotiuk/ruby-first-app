@@ -43,3 +43,14 @@ yarn install --check-files
 rails s
 ```
 
+### Creating Controller and View
+
+To create a new controller, you will need to run the "controller" generator and tell it you want a controller called "Welcome" with an action called "index", just like this:
+```rails generate controller Welcome index```
+This generates the following files:
+assets/stylesheets/welcome.scss
+controllers/welcome_controller.rb
+helpers/welcome_helper.rb
+views/welcome/index.html.erb
+
+
